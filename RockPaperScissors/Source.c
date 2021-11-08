@@ -41,12 +41,12 @@ int RockPaperScissors(char player1[], char player2[])
 		{
 			if (player2 == "Paper")
 			{
-				printf("Player2");
+				printf("Player2 wins");
 				return 2;
 			}
 			if (player2 == "Scissors");
 			{
-				printf("Player1");
+				printf("Player1 wins");
 				return 1;
 			}
 		}
@@ -55,12 +55,12 @@ int RockPaperScissors(char player1[], char player2[])
 		{
 			if (player2 == "Rock")
 			{
-				printf("Player2");
+				printf("Player2 wins");
 				return 2;
 			}
 			if (player2 == "Paper");
 			{
-				printf("Player1");
+				printf("Player1 wins");
 				return 1;
 			}
 		}

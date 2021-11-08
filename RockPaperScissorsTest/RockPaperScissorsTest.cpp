@@ -9,8 +9,9 @@ namespace RockPaperScissorsTest
 	{
 	public:
 		
-		TEST_METHOD(TestMethod1)
+		TEST_METHOD(T1_gameResult_drawTrue)
 		{
+			
 		}
 	};
 }

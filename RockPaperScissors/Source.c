@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include "rps.h"
 
 
 void main()

@@ -20,7 +20,7 @@ namespace RockPaperScissorsTest
 			char b[5] = { 'R', 'o', 'c', 'k' };
 
 			int gameResult = RockPaperScissors(a, b);
-			Assert::AreEqual(0, gameResult);
+			Assert::AreEqual(5, gameResult);
 		}
 
 		TEST_METHOD(T1_gameResult_P1_Paper_P2_Scissors_P2win)

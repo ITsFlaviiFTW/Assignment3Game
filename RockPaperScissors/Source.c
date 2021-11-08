@@ -16,36 +16,39 @@ int RockPaperScissors(char player1[], char player2[])
 		return 3;
 	}
 
-	if (player1 == player2)
+	if (strcmp(player1, player2) == 0)
 	{
 		printf("Draw!");
-		return 0;
+		return 5;
 	}
 
-	if (player1 == "Paper")
+	if (strcmp(player1, "Paper") == 0)
 	{
-		if (player2 == "Scissors")
+		if (strcmp(player2, "Scissors") == 0)
 		{
-			printf("Player2");
+			printf("Player2 wins");
 			return 2;
 		}
-		if (player2 == "Rock");
+		if (strcmp(player2, "Rock") == 0);
 		{
-			printf("Player1");
+			printf("Player1 wins");
 			return 1;
 		}
 
-	if (player1 == "Rock")
-	{
-		if (player2 == "Paper")
+
+
+		if (player1 == "Rock")
 		{
-			printf("Player2");
-			return 2;
-		}
-		if (player2 == "Scissors");
-		{
-			printf("Player1");
-			return 1;
+			if (player2 == "Paper")
+			{
+				printf("Player2");
+				return 2;
+			}
+			if (player2 == "Scissors");
+			{
+				printf("Player1");
+				return 1;
+			}
 		}
 
 		if (player1 == "Scissors")

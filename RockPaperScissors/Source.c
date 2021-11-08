@@ -15,3 +15,10 @@ int RockPaperScissors(char player1[], char player2[])
 		printf("Not Valid!");
 		return 30;
 	}
+
+	if (player1 == player2)
+	{
+		printf("Draw!");
+		return 0;
+	}
+}

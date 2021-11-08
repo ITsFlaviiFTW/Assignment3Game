@@ -78,7 +78,7 @@ namespace RockPaperScissorsTest
 			char b[6] = { 'P','a','p','e','r' };
 
 			int gameResult = RockPaperScissors(a, b);
-			Assert::AreEqual(2, gameResult);
+			Assert::AreEqual(1, gameResult);
 		}
 
 	};

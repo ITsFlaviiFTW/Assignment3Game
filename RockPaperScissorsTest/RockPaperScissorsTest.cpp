@@ -62,5 +62,24 @@ namespace RockPaperScissorsTest
 			Assert::AreEqual(1, gameResult);
 		}
 
+		// ==================================================  results in player2 winning as rock and then player1 winning as paper
+		TEST_METHOD(T6_gameResult_P1_Scissors_P2_Rock_P2win)
+		{
+			char a[9] = { 'S','c','i','s','s','o','r','s' };
+			char b[5] = { 'R', 'o', 'c', 'k' };
+
+			int gameResult = RockPaperScissors(a, b);
+			Assert::AreEqual(2, gameResult);
+		}
+
+		TEST_METHOD(T7_gameResult_P1_Scissors_P2_Paper_P1win)
+		{
+			char a[9] = { 'S','c','i','s','s','o','r','s' };
+			char b[6] = { 'P','a','p','e','r' };
+
+			int gameResult = RockPaperScissors(a, b);
+			Assert::AreEqual(2, gameResult);
+		}
+
 	};
 }
